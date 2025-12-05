@@ -482,6 +482,22 @@ body {
   margin-bottom: 20px;
 }
 
+.button-t.type1 {
+  background-color: #3a3638; /* rosa de tu branding */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn-t-txt {
+  pointer-events: none; /* evita que el span bloquee el click */
+}
+
 /* Botón */
 /* From Uiverse.io by Gaurav-WebDev */ 
 .button {
@@ -646,4 +662,5 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+
 }
